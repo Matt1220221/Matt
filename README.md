@@ -12,6 +12,7 @@ URL of  first project: 'https://roadmap.sh/projects/single-page-cv'
 
 2)
 URL of second project: 'https://roadmap.sh/projects/basic-html-website'
+
   Again, make sure that your submission includes the following:
   
   Semantically correct HTML structure.
