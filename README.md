@@ -1,6 +1,7 @@
 #Roadmap
 
 1)Single-Page CV
+
 URL of  first project: 'https://roadmap.sh/projects/single-page-cv'
 
   Key requirements for this project:
@@ -11,6 +12,7 @@ URL of  first project: 'https://roadmap.sh/projects/single-page-cv'
   Favicon: Add a favicon for your CV page.
 
 2)Basic HTML Website
+
 URL of second project: 'https://roadmap.sh/projects/basic-html-website'
 
   Again, make sure that your submission includes the following:
