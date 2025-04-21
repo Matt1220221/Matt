@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Contact of Matthew Castillo">
+    <meta name="keywords" content="Matthew Castillo, Contact, Frontend, Web-Developer, Website, HTML">
+    
+    <meta property="og:title" content="Matthew Castillo - Contact">
+    <meta property="og:description" content="Contactinformation of Matthew Castillo, a skilled Software Engineer and Electrician">
+    <meta property="og:image" content="https://yourwebsite.de/images/preview.jpg"> <!-- Preview image for Social Media -->
+    <meta property="og:url" content="https://yourwebsite.de"> <!--Enter your URL-->
+    <title>Contact | Matthew Castillo</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <section class="Contact">
+        <form action="index.php" method="POST"> <!--action= data will be sent to a file (index.php), POST= for sensitive data-->
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Phonenumber:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+
+
+            <label for="gender">Gender:</label><br>
+
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="Gender">
+
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="Gender">
+
+            <label for="Other">Other</label>
+            <input type="radio" id="Other" name="Gender"><br>
+
+            <label for="bday">Birthday</label>
+            <input type="date" id="bday" name="Birthday"><br>
+
+            <label for="guidelines">I have checked all forms</label>
+            <input type="checkbox" id="guidelines" name="guidelines">
+            <br><input type="submit">
+        </form>
+    </section>
+    <footer>
+        © all rights reserved 2025
+    </footer>
+</body>
+</html>

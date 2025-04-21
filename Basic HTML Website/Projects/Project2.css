@@ -1,0 +1,71 @@
+body{
+    background-color: #f7f9fc;
+    font-family: "Cabin";
+
+}
+
+h1{
+    font-size: 45px;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+#wb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #063580;
+    width: 400px;
+    height: 450px;
+    color: whitesmoke;
+    padding: 10px;
+    padding-left: 10px;
+ 
+    
+}
+
+#account{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ebebeb;
+    width: 400px;
+    height: 450px;
+    padding: 10px;
+    font-size: large;
+}
+#in{
+    border: whitesmoke solid;
+    border-radius: 20px;
+    border-width: 2px;
+    background-color: #063580;
+    width: 150px;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 12px;
+    text-align: center;
+}
+
+#up{
+    border-radius: 20px;
+    border-width: 2px;
+    background-color: #063580;
+    width: 150px;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 12px;
+    text-align: center;
+}
+
+#fillin{
+    border: #063580;
+}
